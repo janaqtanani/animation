@@ -1,0 +1,55 @@
+@keyframes ltr{
+    10%{
+        margin-left:0;
+        margin-right:90%;
+    }
+
+    20%{
+        margin-left: 90%;
+        margin-right:0 ;
+    }
+
+    30%{
+        margin-left: 90%;
+        margin-right:0;
+        margin-top: 0;  
+    }
+
+    40%{
+        margin-top:80vh;
+        margin-bottom:0vh;
+        margin-right:0;
+        margin-left: 90%;
+    }
+
+    50%{
+        margin-top:80vh;
+        margin-bottom:0vh;
+        margin-right:90%;
+        margin-left:0;
+       
+    }
+    60%{
+        margin-left: 0%;
+        margin-right: 80%;
+        margin-top: 0vh;
+        margin-bottom: 80vh;
+    }
+
+    70%{
+        margin-top: 30%;
+        margin-left: 40%;
+    }
+   
+    
+}
+body{
+    width:100%
+}
+
+
+img{
+     animation: 3s  ltr ; 
+    
+}
+    
